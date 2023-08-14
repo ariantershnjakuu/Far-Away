@@ -1,13 +1,17 @@
-
+import React from 'react';
+import './index.css';
+import Form from './Form';
+import Stats from './Stats';
+import PackingList from './PackingList';
+import Logo from './Logo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          This is a React app that is rendered by a different React app.
-        </p>
-      </header>
+      <Logo />
+      <Form />
+      <Stats />
+      <PackingList />
     </div>
   );
 }
