@@ -7,11 +7,11 @@ import Logo from './Logo';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Logo />
       <Form />
-      <Stats />
       <PackingList />
+      <Stats />
     </div>
   );
 }
