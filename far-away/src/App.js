@@ -2,8 +2,9 @@ import React from 'react';
 import './index.css';
 import Form from './Form';
 import Stats from './Stats';
-import PackingList from './PackingList';
 import Logo from './Logo';
+import PackingList from './PackingList';
+
 
 function App() {
   return (
